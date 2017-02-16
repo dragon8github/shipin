@@ -5,11 +5,11 @@ module.exports =
     entry:
     {
        "member-index":[__dirname+'/src/jtthink/member-index.js'
-           ,'webpack-dev-server/client?http://127.0.0.1:8899'],
+           ,'webpack-dev-server/client?http://127.0.0.1:8890'],
        "web-index":[__dirname+'/src/jtthink/web-index.js']
       },
     output: {
-        publicPath: "http://127.0.0.1:8899/",
+        publicPath: "http://127.0.0.1:8890/",
         path: __dirname+'/src/webapp/js',  //输出文件夹
         filename:'[name].js'   //最终打包生成的文件名(just 文件名，不带路径的哦)
     },

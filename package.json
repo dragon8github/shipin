@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --host 127.0.0.1  --port 8899  --inline --hot --content-base ./src/webapp",
+    "dev": "webpack-dev-server --host 127.0.0.1  --port 8890  --inline --hot --content-base ./src/webapp",
     "b":"webpack"
   },
   "author": "",
